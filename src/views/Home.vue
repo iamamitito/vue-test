@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    <h1>Título nuevo, hola mami, estoy en la tele</h1>
     <Todos />
     <Integrantes />
   </div>
@@ -8,12 +9,12 @@
 <script>
 // @ is an alias to /src
 import Todos from "@/components/Todos.vue";
-import Integrantes from '../components/Integrantes'
+import Integrantes from "../components/Integrantes";
 export default {
   name: "Home",
   components: {
     Todos,
-    Integrantes
+    Integrantes,
   },
 };
 </script>
